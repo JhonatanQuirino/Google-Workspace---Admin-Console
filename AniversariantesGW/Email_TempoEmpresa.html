@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário de Empresa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 650px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+    .header-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-bottom: 5px solid #6B8E23;
+    }
+    .content {
+      padding: 40px 35px;
+    }
+    .greeting {
+      font-size: 28px;
+      font-weight: 700;
+      color: #2d3748;
+      margin-bottom: 25px;
+      background: linear-gradient(135deg, #6B8E23 0%, #556B2F 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .message {
+      font-size: 17px;
+      color: #4a5568;
+      margin-bottom: 18px;
+      line-height: 1.8;
+    }
+    .highlight {
+      background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+      padding: 25px;
+      border-radius: 15px;
+      margin: 25px 0;
+      box-shadow: 0 8px 20px rgba(85, 107, 47, 0.25);
+      border-left: 5px solid #6B8E23;
+      text-align: center;
+    }
+    .highlight .years {
+      font-size: 42px;
+      font-weight: 700;
+      color: #047857;
+      margin-bottom: 10px;
+      display: block;
+    }
+    .highlight .message {
+      font-size: 18px;
+      color: #065f46;
+      font-weight: 600;
+      margin: 0;
+    }
+    .purpose-box {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      padding: 25px;
+      border-radius: 15px;
+      margin: 25px 0;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(251, 191, 36, 0.3);
+      border-left: 5px solid #f59e0b;
+    }
+    .purpose-box p {
+      font-size: 17px;
+      font-weight: 600;
+      color: #92400e;
+      margin: 0;
+    }
+    .quote-box {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      padding: 30px;
+      border-radius: 15px;
+      margin: 30px 0;
+      font-style: italic;
+      color: #1e3a8a;
+      box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+      border-left: 5px solid #3b82f6;
+      text-align: center;
+    }
+    .quote-box .verse {
+      font-size: 16px;
+      margin-bottom: 15px;
+      line-height: 1.7;
+    }
+    .quote-box .reference {
+      font-weight: 700;
+      font-size: 14px;
+      color: #1e40af;
+    }
+    .signature {
+      margin-top: 40px;
+      padding-top: 25px;
+      border-top: 2px solid #e2e8f0;
+      color: #2d3748;
+      line-height: 1.8;
+    }
+    .signature .intro {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    .signature .name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #10b981;
+      margin-bottom: 5px;
+    }
+    .signature .title {
+      font-size: 14px;
+      color: #718096;
+    }
+    .footer {
+      background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+      padding: 25px;
+      text-align: center;
+      border-top: 3px solid #e2e8f0;
+    }
+    .footer p {
+      font-size: 12px;
+      color: #718096;
+      margin: 0;
+    }
+    @media (max-width: 600px) {
+      .content { padding: 30px 20px; }
+      .greeting { font-size: 24px; }
+      .message { font-size: 16px; }
+      .highlight .years { font-size: 36px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <? if (companyAnniversaryImageUrl) { ?><img src="<?= companyAnniversaryImageUrl ?>" alt="Feliz Aniversário de Empresa" class="header-image"><? } ?>
+
+    <div class="content">
+      <p class="greeting">Olá, <?= primeiroNome ?>! &#127881;</p>
+      
+      <div class="highlight">
+        <span class="years"><?= anosDeEmpresa ?> <?= singularPlural ?></span>
+        <p class="message">de jornada na Missão Sal da Terra!</p>
+      </div>
+
+      <p class="message">
+        Que alegria ter você em nosso time. &#128522; Agradeço por somar conosco na missão de cuidar com empatia e transformar realidades por meio do seu trabalho diário.
+      </p>
+
+      <div class="purpose-box">
+        <p>&#128154; "Nós cuidamos das pessoas para transformar vidas." &#128154;</p>
+      </div>
+      
+      <p class="message">
+        Cada etapa dessa jornada representa a força de um propósito que compartilhamos. Obrigado por fazer parte dessa história e por contribuir com sua trajetória de serviço e cuidado. &#128591;
+      </p>
+
+      <div class="quote-box">
+        <p class="verse">&#10024; "Servi uns aos outros, cada um conforme o dom que recebeu, como bons despenseiros da multiforme graça de Deus." &#10024;</p>
+        <p class="reference">— 1 Pedro 4:10</p>
+      </div>
+      
+      <div class="signature">
+        <p class="intro">Com respeito e gratidão,</p>
+        <p class="name"><?= organizationSignatureName ?></p>
+        <p class="title"><?= organizationSignatureTitle ?></p>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p>Esta é uma mensagem automática de celebração.</p>
+    </div>
+  </div>
+</body>
+</html>

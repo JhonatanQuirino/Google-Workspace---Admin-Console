@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 650px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+    .header-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-bottom: 5px solid #FFD700;
+    }
+    .content {
+      padding: 40px 35px;
+    }
+    .greeting {
+      font-size: 28px;
+      font-weight: 700;
+      color: #2d3748;
+      margin-bottom: 25px;
+      background: linear-gradient(135deg, #6B8E23 0%, #556B2F 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .message {
+      font-size: 17px;
+      color: #4a5568;
+      margin-bottom: 18px;
+      line-height: 1.8;
+    }
+    .highlight-box {
+      background: linear-gradient(135deg, #eef5d3 0%, #dbeab5 100%);
+      padding: 25px;
+      border-radius: 15px;
+      margin: 25px 0;
+      box-shadow: 0 8px 20px rgba(85, 107, 47, 0.25);
+      border-left: 5px solid #6B8E23;
+    }
+    .highlight-box p {
+      margin-bottom: 0;
+      color: #2d3748;
+      font-weight: 600;
+    }
+    .quote-box {
+      background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+      padding: 25px;
+      border-radius: 15px;
+      margin: 30px 0;
+      font-style: italic;
+      color: #2d3748;
+      box-shadow: 0 8px 20px rgba(168, 237, 234, 0.3);
+      border-left: 5px solid #48c6ef;
+      text-align: center;
+    }
+    .quote-box .verse {
+      font-size: 15px;
+      margin-bottom: 10px;
+      line-height: 1.7;
+    }
+    .quote-box .reference {
+      font-weight: 700;
+      font-size: 14px;
+      color: #1a202c;
+    }
+    .signature {
+      margin-top: 40px;
+      padding-top: 25px;
+      border-top: 2px solid #e2e8f0;
+      font-weight: 600;
+      color: #2d3748;
+      line-height: 1.8;
+    }
+    .signature .name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #667eea;
+      margin-bottom: 5px;
+    }
+    .footer {
+      background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+      padding: 25px;
+      text-align: center;
+      border-top: 3px solid #e2e8f0;
+    }
+    .footer p {
+      font-size: 12px;
+      color: #718096;
+      margin: 0;
+    }
+    @media (max-width: 600px) {
+      .content { padding: 30px 20px; }
+      .greeting { font-size: 24px; }
+      .message { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <? if (birthdayImageUrl) { ?><img src="<?= birthdayImageUrl ?>" alt="Feliz Aniversário" class="header-image"><? } ?>
+
+    <div class="content">
+      <p class="greeting">Olá, <?= primeiroNome ?>! &#127881;</p>
+      
+      <p class="message">
+        Parabéns pelo seu aniversário! Hoje celebramos a dádiva da sua vida. &#129395;
+      </p>
+      
+      <p class="message">
+        Desejamos a você sabedoria, alegria e muita saúde &#128522; — para você e toda a sua família! Que continuemos unidos no propósito de cuidar das pessoas e transformar vidas todos os dias.
+      </p>
+      
+      <div class="quote-box">
+        <p class="verse">&#127807; "Porque sou eu que conheço os planos que tenho para vocês", diz o Senhor, "planos de fazê-los prosperar e não de lhes causar dano, planos de dar-lhes esperança e um futuro." &#127807;</p>
+        <p class="reference">— Jeremias 29:11</p>
+      </div>
+      
+      <div class="highlight-box">
+        <p class="message">
+          &#127873; Como parte das nossas ações de valorização, colaboradores aniversariantes podem ter a oportunidade de usufruir de uma folga especial de aniversário, desde que atendam aos critérios estabelecidos pelo RH.
+        </p>
+      </div>
+
+      <p class="message">
+        <strong>Caso você se enquadre nesses critérios</strong>, alinhe com sua liderança o melhor período para usufruir desse benefício.
+      </p>
+
+      <p class="message">
+        Que Deus abençoe sua vida e continue guiando seus passos.
+      </p>
+      
+      <p class="message" style="margin-top: 30px; font-weight: 600; color: #667eea;">
+        Aproveite o seu dia — ele é todo seu! &#127856; &#10024;
+      </p>
+      
+      <div class="signature">
+        <p class="name"><?= organizationSignatureName ?></p>
+        <p><?= organizationSignatureTitle ?></p>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p>Esta é uma mensagem automática de celebração.</p>
+    </div>
+  </div>
+</body>
+</html>
