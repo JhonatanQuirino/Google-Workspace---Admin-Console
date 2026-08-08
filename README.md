@@ -80,6 +80,7 @@ FIREBASE_PROJECT_ID
 | `BoasVindasGW` | E-mails de boas-vindas para novos usuários | Verificação agendada de novas contas | Admin Directory, Gmail |
 | `criacaoUsuarioGW` | Provisionamento de usuários a partir do HCM | Agendado | Firebase, Admin Directory |
 | `DadosRecuperacaoGW` | Sincronização de dados de recuperação | Agendado | Firebase, Admin Directory |
+| `IntegracaoERPGW` | Recebimento e normalização de dados de ERP para Firebase | Web App ou agendado | Firebase, UrlFetchApp |
 | `UsuariosAtivosGW` | Gestão de usuários ativos e OUs | Agendado | Admin Directory, Schemas customizados |
 | `UsuariosSuspensosGW` | Suspensão e desligamento de usuários | Agendado | Admin Directory, License Manager |
 

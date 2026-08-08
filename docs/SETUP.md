@@ -19,6 +19,7 @@ AniversariantesGW/
 BoasVindasGW/
 criacaoUsuarioGW/
 DadosRecuperacaoGW/
+IntegracaoERPGW/
 UsuariosAtivosGW/
 UsuariosSuspensosGW/
 ```
@@ -71,6 +72,8 @@ Configure apenas as propriedades usadas pelo módulo que será implantado. Não 
 | `SITUACAO_DESLIGAMENTO`, `SITUACAO_OU_DEFAULT`, `SITUACAO_OU_MAP` | Código de desligamento, nome padrão e mapa JSON de código de situação para nome de UO | Suspensão |
 | `FIREBASE_DATABASE_URL` | URL do Firebase Realtime Database | Módulos Firebase |
 | `FIREBASE_PRIVATE_KEY`, `FIREBASE_CLIENT_EMAIL`, `FIREBASE_PROJECT_ID` | Credenciais da conta de serviço Firebase | Módulos Firebase |
+| `INBOUND_JWT_SECRET`, `INBOUND_JWT_ISSUER`, `INBOUND_JWT_AUDIENCE` | Autenticação JWT do endpoint ERP | Integração ERP |
+| `ERP_FIELD_MAPPING`, `ERP_SOURCE_URL`, `ERP_SOURCE_HEADERS`, `ERP_RESPONSE_RECORDS_PATH` | Mapeamento e coleta REST opcional de ERP | Integração ERP |
 | `GITHUB_TOKEN`, `GITHUB_OWNER`, `GITHUB_REPO`, `GITHUB_BACKUP_PATH` | Configuração da integração opcional de backup no GitHub | Backup |
 
 > Não armazene segredos em arquivos de código.
@@ -92,6 +95,7 @@ Não inclua valores reais de propriedades em documentação, arquivos de exemplo
 | `BoasVindasGW` | `NOME_DOMINIO`, e-mails, identidade da organização, `URL_PORTAL_ONBOARDING`, `ORGANIZATION_LOGO_URL`, `UOS_GENERICAS` e `WELCOME_VIDEO_ID`, se usado |
 | `criacaoUsuarioGW` | `NOME_DOMINIO`, `SITUACAO_ATIVA`, e-mails necessários e credenciais Firebase |
 | `DadosRecuperacaoGW` | Credenciais e URL Firebase, domínio, listas de UOs/domínios, situações e configurações de e-mail/GitHub usadas pelo fluxo |
+| `IntegracaoERPGW` | `INBOUND_JWT_SECRET`, credenciais Firebase e, se houver coleta agendada, URL, cabeçalhos e mapeamento do ERP |
 | `UsuariosAtivosGW` | `NOME_DOMINIO`, `SITUACAO_ATIVA` e `SUSPENDED_OU_PATH` |
 | `UsuariosSuspensosGW` | Domínio, situações, UOs de suspensão, `SITUACAO_DESLIGAMENTO` e o mapa `SITUACAO_OU_MAP` |
 
@@ -164,6 +168,11 @@ Ative no Apps Script:
 
 - Confirme os dados de recuperação.
 - Execute `sincronizarDadosRecuperacao()`.
+
+### `IntegracaoERPGW`
+
+- Configure o JWT de entrada e as credenciais Firebase.
+- Implante como Web App para receber `doPost(e)` ou crie um gatilho para `sincronizarERP()`.
 
 ### `UsuariosAtivosGW`
 
