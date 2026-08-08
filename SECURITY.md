@@ -4,7 +4,7 @@
 
 ⚠️ **NÃO reporte vulnerabilidades de segurança por issues públicas no GitHub.**
 
-Envie relatórios para: **[security@your-org.com](mailto:security@your-org.com)**
+Envie relatórios para: **[jhqsouza@gmail.com](mailto:jhqsouza@gmail.com)**
 
 Inclua as seguintes informações:
 - Tipo de vulnerabilidade
@@ -84,4 +84,4 @@ Verifique se o projeto habilita somente os escopos necessários.
 
 ## Contato
 
-Para dúvidas de segurança, utilize: **security@your-org.com**
+Para dúvidas de segurança, utilize: **[jhqsouza@gmail.com](mailto:jhqsouza@gmail.com)**

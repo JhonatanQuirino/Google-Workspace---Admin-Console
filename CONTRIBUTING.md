@@ -9,7 +9,7 @@ O projeto busca um ambiente acolhedor e inclusivo. Todos os colaboradores devem:
 - Ser respeitosos e profissionais
 - Valorizar perspectivas diversas
 - Oferecer feedback construtivo
-- Reportar violações para [conduct@your-org.com](mailto:conduct@your-org.com)
+- Reportar violações para [jhqsouza@gmail.com](mailto:jhqsouza@gmail.com)
 
 ## Como começar
 
