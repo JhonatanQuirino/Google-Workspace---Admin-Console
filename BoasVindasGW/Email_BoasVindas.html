@@ -1,0 +1,158 @@
+<!--
+Copyright (c) 2026 Jhonatan Quirino
+Todos os direitos reservados.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<base target="_top">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bem-vindo à <?= organizationName ?></title>
+<style>
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    max-width: 600px;
+    margin: 32px auto;
+    background: #f4f6f8;
+    padding: 0;
+    border-radius: 12px;
+    border: none;
+  }
+  .main-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 36px 32px 28px 32px;
+    margin: 0;
+  }
+  .header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+  }
+  .header img {
+    max-width: 200px;
+    height: auto;
+  }
+  .content p {
+    margin-bottom: 15px;
+    font-size: 1.04em;
+    color: #222;
+  }
+  .corporate-block {
+    background: #f0f4f8;
+    border-left: 4px solid #005fa3;
+    padding: 16px 20px;
+    border-radius: 7px;
+    margin: 24px 0 18px 0;
+    font-size: 1em;
+  }
+  .yellow-highlight-block p {
+    margin: 0;
+  }
+  .yellow-highlight-block {
+    background-color: #f9f6e7;
+    padding: 10px 16px;
+    border-radius: 7px;
+    margin-bottom: 0;
+    line-height: 1.5;
+    border-left: 4px solid #e6c200;
+    font-size: 1em;
+  }
+  .button-container {
+    text-align: center;
+    margin: 30px 0;
+  }
+  .button {
+    display: inline-block;
+    background: linear-gradient(90deg, #005fa3 0%, #007bce 100%);
+    color: #fff;
+    padding: 13px 32px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 17px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    border: none;
+  }
+  .button,
+  .button:visited,
+  .button:hover,
+  .button:active {
+    color: #ffffff !important;
+    text-decoration: none !important;
+  }
+  .button span {
+    color: #ffffff !important;
+    text-decoration: none !important;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 12px;
+    color: #777;
+  }
+  .signature {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 1.08em;
+    color: #005fa3;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+  }
+</style>
+</head>
+<body>
+  <div class="main-card">
+    <div class="header">
+      <? if (organizationLogoUrl) { ?><img src="<?= organizationLogoUrl ?>" alt="Logo <?= organizationName ?>"><? } ?>
+    </div>
+    <div class="content">
+      <div class="personal-greeting" style="font-size:1.18em; font-weight:600; color:#005fa3; margin-bottom:10px; text-align:center; letter-spacing:0.2px;">Olá <?= primeiroNome ?>! <span style="font-size:1.2em;">&#128075;&#127881;</span></div>
+      <div class="corporate-block">
+        É com grande alegria que damos as boas-vindas à <?= organizationName ?>! <span style="font-size:1.1em;">&#128522;</span><br>
+        A partir deste momento, você integra uma equipe comprometida com a excelência, responsabilidade e ética nos serviços de saúde.
+      </div>
+      <div class="corporate-block">
+        Para dar início ao seu processo de integração, acesse o Ambiente Virtual de Aprendizagem (AVA) e siga as orientações abaixo: <span style="font-size:1.1em;">&#128640;</span>
+      </div>
+      <div class="button-container">
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: separate;">
+          <tr>
+            <td align="center" bgcolor="#005fa3" style="border-radius: 6px; background: #005fa3;">
+              <a href="<?= organizationPortalUrl ?>" target="_blank" class="button" style="display: inline-block; padding: 13px 32px; font-family: 'Segoe UI', Arial, sans-serif; font-size: 17px; font-weight: 600; line-height: 1.2; color: #ffffff !important; text-decoration: none !important; border-radius: 6px; background: #005fa3; border: 1px solid #005fa3;">
+                <span style="color: #ffffff !important; text-decoration: none !important;">Acessar o AVA</span>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="yellow-highlight-block">
+        <p><strong>Login:</strong> seu CPF (<span style="color:#005fa3; font-weight:bold;"><?= cpfColaborador ?></span>)</p>
+        <p><strong>Senha:</strong> seu CPF (recomendamos não alterar para não se esquecer).</p>
+        <p>Vídeo explicativo em anexo. <span style="font-size:1.1em;">&#127909;</span></p>
+      </div>
+      <div class="corporate-block">
+        <strong>Atenção:</strong> Realize esta etapa no seu primeiro dia, conforme orientado na admissão. Ao concluir, emita o certificado virtual e apresente ao seu gestor imediato.<br>
+        O conteúdo obrigatório é: <strong>TRILHA INSTITUCIONAL</strong>.<br>
+        Em caso de dúvidas, entre em contato pelo e-mail <a href="mailto:<?= organizationSupportEmail ?>"><?= organizationSupportEmail ?></a> <span style="font-size:1.1em;">&#128231;</span>.
+      </div>
+      <div class="signature">
+        Atenciosamente,<br>
+        <?= organizationSignatureName ?><br>
+        <?= organizationSignatureTitle ?>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Esta é uma mensagem automática de boas-vindas.</p>
+    </div>
+  </div>
+</body>
+</html>

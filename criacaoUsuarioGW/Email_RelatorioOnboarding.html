@@ -1,0 +1,183 @@
+<!--
+Copyright (c) 2026 Jhonatan Quirino
+Todos os direitos reservados.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Relatório de Onboarding</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px 20px;
+            line-height: 1.6;
+        }
+        .container { 
+            background: #ffffff;
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        .header {
+            background: linear-gradient(135deg, #6B8E23 0%, #556B2F 100%);
+            padding: 35px;
+            color: white;
+        }
+        .header h2 {
+            font-size: 26px;
+            font-weight: 700;
+            margin: 0;
+        }
+        .content {
+            padding: 35px;
+        }
+        .greeting {
+            font-size: 16px;
+            color: #374151;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        .description {
+            font-size: 15px;
+            color: #4b5563;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #f1f5e0 0%, #e7efd1 100%);
+            border-radius: 12px;
+            border-left: 5px solid #6B8E23;
+        }
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin: 25px 0;
+        }
+        table { 
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+        thead {
+            background: linear-gradient(135deg, #6B8E23 0%, #556B2F 100%);
+        }
+        th { 
+            padding: 18px 15px;
+            text-align: left;
+            color: white;
+            font-weight: 700;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        th:first-child {
+            border-top-left-radius: 12px;
+        }
+        th:last-child {
+            border-top-right-radius: 12px;
+        }
+        td { 
+            padding: 16px 15px;
+            background: #ffffff;
+            color: #1f2937;
+            font-size: 14px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        tbody tr:hover {
+            background: linear-gradient(135deg, #f9fafb 0%, #eef3e0 100%);
+        }
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+        tbody tr:last-child td:first-child {
+            border-bottom-left-radius: 12px;
+        }
+        tbody tr:last-child td:last-child {
+            border-bottom-right-radius: 12px;
+        }
+        .signature {
+            margin-top: 35px;
+            padding-top: 25px;
+            border-top: 2px solid #e5e7eb;
+            font-size: 15px;
+            color: #374151;
+            font-weight: 600;
+        }
+        .alert-box {
+            background: linear-gradient(135deg, #e7f5ff 0%, #f0e7ff 100%);
+            border-left: 5px solid #667eea;
+            padding: 18px 20px;
+            border-radius: 8px;
+            margin: 20px 0 25px 0;
+            font-size: 14px;
+            color: #374151;
+            font-weight: 600;
+        }
+        .alert-box strong {
+            color: #667eea;
+        }
+        .footer { 
+            background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+            padding: 25px 35px;
+            text-align: center;
+            border-top: 3px solid #e5e7eb;
+        }
+        .footer p {
+            font-size: 12px;
+            color: #6b7280;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>📋 {{TITULO}}</h2>
+        </div>
+
+        <div class="content">
+            <p class="greeting">Olá,</p>
+            
+            <div class="description">
+                {{DESCRICAO}}
+            </div>
+
+            <div class="alert-box">
+                ✓ <strong>Lista de Novos Colaboradores</strong> — Confira abaixo todos os novos usuários criados neste período
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>👤 Nome Completo</th>
+                            <th>📧 E-mail</th>
+                            <th>🆔 CPF</th>
+                            <th>📅 Data de Criação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{LINHAS_COLABORADORES}}
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="signature">
+                <p>Atenciosamente,<br><strong>Integração HCM</strong></p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Esta é uma notificação automática gerada pelo Sistema de Integração HCM - Google Workspace.<br>Por favor, não responda a este e-mail.</p>
+        </div>
+    </div>
+</body>
+</html>

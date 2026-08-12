@@ -1,0 +1,16 @@
+# Local Google Apps Script project bindings. They can identify private projects.
+**/.clasp.json
+
+# Local credentials and configuration exports.
+.env
+.env.*
+!.env.example
+service-account*.json
+firebase-adminsdk-*.json
+credentials*.json
+
+# Editor and operating-system files.
+.DS_Store
+.idea/
+.vscode/
+.tools/
