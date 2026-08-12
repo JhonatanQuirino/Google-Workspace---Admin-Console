@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # DadosRecuperacaoGW
 
 Sincroniza dados de recuperação e estados de usuários entre Firebase e Google Workspace.

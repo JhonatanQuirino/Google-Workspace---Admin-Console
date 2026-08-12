@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Changelog
 
 Todas as mudanças relevantes do projeto são documentadas neste arquivo.
@@ -180,4 +182,4 @@ Consulte [CONTRIBUTING.md](../CONTRIBUTING.md) para diretrizes sobre:
 
 **Última atualização**: 2026-08-07
 **Próxima revisão**: 2026-09-07
-**Mantido por**: [Sua organização]
+**Mantido por**: Jhonatan Quirino

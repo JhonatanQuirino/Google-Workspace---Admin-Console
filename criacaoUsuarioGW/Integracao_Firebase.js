@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /**
  * Serviço para tratamento e validação de dados de colaboradores
  */

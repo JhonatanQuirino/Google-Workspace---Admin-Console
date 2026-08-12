@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 const ERP_START = {
   defaults: { FIREBASE_COLABORADORES_PATH: 'colaboradores', ERP_SOURCE_METHOD: 'get' },
   required: ['INBOUND_JWT_SECRET', 'FIREBASE_DATABASE_URL', 'FIREBASE_PRIVATE_KEY', 'FIREBASE_CLIENT_EMAIL', 'FIREBASE_PROJECT_ID'],

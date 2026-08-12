@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /** Instalador idempotente do módulo criacaoUsuarioGW. */
 const CRIACAO_USUARIO_START = {
   defaults: { SITUACAO_ATIVA: '1' },

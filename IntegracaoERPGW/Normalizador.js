@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 function normalizarRegistrosERP(records, source) {
   if (!Array.isArray(records)) throw new Error('A carga deve conter uma lista de registros.');
   const mapping = _lerJsonConfig(ERP_CONFIG.fieldMappingJson, {});

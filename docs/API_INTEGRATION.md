@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Guia de Integrações
 
 Este documento descreve as APIs e integrações externas usadas pelo GW Admin Hub.

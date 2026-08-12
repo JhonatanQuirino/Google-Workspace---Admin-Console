@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /** Instalador idempotente do módulo UsuariosAtivosGW. */
 const USUARIOS_ATIVOS_START = {
   defaults: { SITUACAO_ATIVA: '1' },

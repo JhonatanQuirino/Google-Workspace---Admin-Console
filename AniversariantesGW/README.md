@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # AniversariantesGW
 
 Envia mensagens de aniversário e tempo de empresa usando Admin Directory e Gmail.

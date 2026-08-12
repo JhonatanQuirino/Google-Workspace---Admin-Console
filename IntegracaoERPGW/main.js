@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /**
  * Endpoint do Web App. O JWT deve ser enviado no corpo JSON porque o Apps Script
  * não expõe cabeçalhos HTTP ao objeto de evento de doPost.

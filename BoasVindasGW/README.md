@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # BoasVindasGW
 
 Envia boas-vindas para contas novas no Google Workspace.

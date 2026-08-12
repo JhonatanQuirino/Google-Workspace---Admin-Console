@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 // Uteis para o serviço de sincronização do Google Workspace com HCM
 
 function saoDiferentes(val1, val2) {

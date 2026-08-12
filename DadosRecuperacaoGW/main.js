@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 function sincronizarDadosRecuperacao() {
   const execId = Utilities.getUuid();
   Logger.json('info', { event: "TRIGGER_RECOVERY_START", execution_id: execId });

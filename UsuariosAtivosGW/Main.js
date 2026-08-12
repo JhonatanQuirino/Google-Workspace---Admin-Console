@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /**
  * Ativa um colaborador cuja situação no HCM é "1" e garante a UO correta.
  *

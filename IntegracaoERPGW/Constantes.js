@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 const ERP_PROPERTIES = PropertiesService.getScriptProperties();
 
 const ERP_CONFIG = {

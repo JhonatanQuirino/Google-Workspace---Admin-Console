@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /**
  * Classe para gerenciamento de token de autenticação do Firebase com cache.
  * Utiliza CacheService para armazenar o token por 1 hora, evitando requisições desnecessárias.

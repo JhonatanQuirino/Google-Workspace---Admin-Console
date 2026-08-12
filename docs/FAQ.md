@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # FAQ
 
 ## O repositório tem `package.json` no nível raiz?

@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /**
  * Testa se todas as propriedades do Firebase estão corretamente configuradas.
  * Retorna um objeto com o status e mensagens de erro, se houver.

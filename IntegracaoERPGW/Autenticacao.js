@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 function validarJwtEntrada(token) {
   if (!token || !ERP_CONFIG.inbound.jwtSecret) {
     throw new Error('JWT ausente ou INBOUND_JWT_SECRET não configurada.');

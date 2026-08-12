@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /** Instalador idempotente do módulo BoasVindasGW. */
 const BOAS_VINDAS_START = {
   defaults: {},

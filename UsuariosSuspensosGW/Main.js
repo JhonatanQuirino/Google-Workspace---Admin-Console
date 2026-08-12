@@ -1,4 +1,9 @@
 /*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
+/*
  * Gerencia utilitários compartilhados para sincronização de suspensão.
  * 
  * A lógica específica de suspensão é delegada para:

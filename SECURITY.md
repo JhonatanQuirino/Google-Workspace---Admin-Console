@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Política de Segurança
 
 ## Relato de vulnerabilidades

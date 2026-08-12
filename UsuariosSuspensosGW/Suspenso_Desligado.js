@@ -1,4 +1,9 @@
 /*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
+/*
  * Processamento exclusivo de colaboradores desligados em situação de suspensão.
  * Neste projeto, só lidamos com usuários que devem ir para a unidade organizacional de desligados.
  * 

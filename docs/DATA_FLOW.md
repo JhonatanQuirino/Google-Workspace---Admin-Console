@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Data Flow
 
 Este documento descreve os fluxos de dados principais do GW Admin Hub.

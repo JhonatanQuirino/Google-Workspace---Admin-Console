@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Guia de Solução de Problemas
 
 ## Problemas comuns

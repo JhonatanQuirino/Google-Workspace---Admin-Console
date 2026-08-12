@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 // Minimal project constants — keep only what is used by the scripts
 var EMAIL_ADMIN = PropertiesService.getScriptProperties().getProperty('EMAIL_ADMIN');
 var CEP_EMAIL = PropertiesService.getScriptProperties().getProperty('CEP_EMAIL');

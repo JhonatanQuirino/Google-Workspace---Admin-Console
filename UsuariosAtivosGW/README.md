@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # UsuariosAtivosGW
 
 Atualiza usuários ativos e suas unidades organizacionais a partir do Firebase.

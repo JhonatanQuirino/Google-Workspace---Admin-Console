@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 // Processamento de colaboradores e determinação de destino para sincronização
 
 function obterUsuarioGW(colaborador, usuariosGW, cpfParaEmailGW) {

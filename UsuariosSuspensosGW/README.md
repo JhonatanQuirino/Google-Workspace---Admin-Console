@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # UsuariosSuspensosGW
 
 Suspende usuários e gerencia licenças conforme situações recebidas do Firebase.

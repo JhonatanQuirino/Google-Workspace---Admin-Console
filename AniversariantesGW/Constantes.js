@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 // Constantes mínimas para este projeto
 const EMAIL_ADMIN = PropertiesService.getScriptProperties().getProperty('EMAIL_ADMIN');
 const EMAIL_COMUNICACAO = PropertiesService.getScriptProperties().getProperty('EMAIL_COMUNICACAO');

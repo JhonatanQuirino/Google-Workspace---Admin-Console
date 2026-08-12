@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Arquitetura do Sistema
 
 Este documento descreve a arquitetura geral, padrões de design e interações de componentes do GW Admin Hub.

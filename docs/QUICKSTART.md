@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Guia rápido
 
 Este guia rápido mostra como iniciar o GW Admin Hub em minutos.

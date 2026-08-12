@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 function saoDiferentes(val1, val2) {
   return String(val1 || '').trim().toLowerCase() !== String(val2 || '').trim().toLowerCase();
 }

@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 const GOOGLE_WORKSPACE_CONSTANTS = {
   DOMAIN: PropertiesService.getScriptProperties().getProperty('NOME_DOMINIO') || 'example.com'
 };

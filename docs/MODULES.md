@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Referência de Módulos
 
 Este arquivo descreve o propósito e as responsabilidades de cada módulo no GW Admin Hub.

@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /**
  * Serviço para manipulação de colaboradores no Firebase.
  * Adapte as funções conforme sua necessidade.

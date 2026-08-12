@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 function listarTodosOsUsuarios(dominio, options) {
   // Verificar se AdminDirectory está disponível
   if (typeof AdminDirectory === 'undefined') {

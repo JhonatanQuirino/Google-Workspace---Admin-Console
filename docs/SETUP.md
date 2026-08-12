@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Guia de Configuração e Implantação
 
 Este documento descreve como preparar e implantar os módulos do GW Admin Hub.

@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # IntegracaoERPGW
 
 Gateway genérico para receber colaboradores de ERPs (Sankhya, Senior, Protheus ou outro REST) e armazená-los no Firebase no formato consumido pelos módulos do HUB.

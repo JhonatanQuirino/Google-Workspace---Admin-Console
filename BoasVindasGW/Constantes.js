@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 // Constantes globais para e-mails buscados nas propriedades do script
 const EMAIL_ADMIN = PropertiesService.getScriptProperties().getProperty('EMAIL_ADMIN');
 const CEP_EMAIL = PropertiesService.getScriptProperties().getProperty('CEP_EMAIL');

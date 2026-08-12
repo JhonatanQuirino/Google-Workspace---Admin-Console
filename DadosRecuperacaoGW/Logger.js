@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 // Simple Logger wrapper to avoid runtime errors when a global Logger is expected.
 // Maps to console methods and stringifies objects for clearer logs.
 var Logger = (function () {

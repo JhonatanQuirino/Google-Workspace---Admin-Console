@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Contribuindo para o GW Admin Hub
 
 Obrigado pelo interesse em contribuir! Este documento descreve as diretrizes e instruções para contribuir com o projeto.

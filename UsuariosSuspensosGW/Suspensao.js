@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 // Triggers e wrappers de sincronização para o serviço de sincronização
 
 // Removed out-of-scope helper `carregarConfiguracao` and `triggerSincronizarDadosPessoais`.

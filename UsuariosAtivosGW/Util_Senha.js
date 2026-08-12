@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /**
  * Corrige e regrava a chave privada do Firebase nas propriedades do Apps Script.
  * Garante que as quebras de linha estejam no formato correto (\n).

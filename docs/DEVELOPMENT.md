@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Guia de Desenvolvimento
 
 Este documento descreve como trabalhar no GW Admin Hub e testar alterações.

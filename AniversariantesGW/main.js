@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 
 function executarVerificacoesDeAniversario() {
   Logger.log("Iniciando verificações diárias de aniversários (nascimento e empresa)");

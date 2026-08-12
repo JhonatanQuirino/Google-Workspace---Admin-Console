@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 function obterUsuarioGW(colaborador, usuariosGW, cpfParaEmailGW) {
   const cpfHCM = UtilsCPF.normalizar(colaborador.cpf);
   const emailHCM = (colaborador.emailProfissional || '').trim().toLowerCase();

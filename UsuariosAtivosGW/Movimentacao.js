@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 function reativarUsuario(usuarioGW, uoDestinoAtivo, colaborador) {
   try {
     const senha = gerarSenhaColaborador(colaborador);

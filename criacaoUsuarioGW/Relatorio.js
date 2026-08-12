@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /**
  * Classe para gerenciar relatórios de Onboarding
  * Responsável pela geração e envio de relatórios de novos colaboradores

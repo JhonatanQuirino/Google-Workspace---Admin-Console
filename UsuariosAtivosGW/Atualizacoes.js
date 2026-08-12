@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 function atualizarNomeEOU(usuarioGW, dadosHCM, uoDestino) {
   try {
     let firstName = dadosHCM.firstName;

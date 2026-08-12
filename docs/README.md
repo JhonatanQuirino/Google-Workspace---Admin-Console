@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # Documentação do GW Admin Hub
 
 Este diretório reúne os guias de configuração, uso e manutenção do projeto.

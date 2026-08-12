@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 function salvarColaboradoresNoFirebase(colaboradores) {
   const token = _obterTokenFirebase();
   const baseUrl = String(ERP_CONFIG.firebase.databaseUrl || '').replace(/\/$/, '');

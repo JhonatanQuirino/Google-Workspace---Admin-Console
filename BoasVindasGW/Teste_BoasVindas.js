@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /**
  * Testes para o Serviço de Boas-Vindas
  * Valida funcionalidade sem executar ações reais (sem envio de emails)

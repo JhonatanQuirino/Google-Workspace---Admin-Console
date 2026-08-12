@@ -1,4 +1,9 @@
 /*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
+/*
  * Processamento exclusivo de colaboradores afastados em situação de suspensão.
  * Neste projeto, só lidamos com usuários que devem ir para unidades organizacionais de suspensão.
  */

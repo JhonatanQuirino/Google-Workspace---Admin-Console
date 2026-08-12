@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 ﻿# GW Admin Hub
 
 > Plataforma de automação para administração do Google Workspace, construída com Google Apps Script. O projeto é composto por módulos independentes que rodam como projetos Apps Script separados.

@@ -1,3 +1,5 @@
+Copyright (c) 2026 Jhonatan Quirino
+
 # criacaoUsuarioGW
 
 Provisiona usuários do Google Workspace a partir de dados do Firebase.

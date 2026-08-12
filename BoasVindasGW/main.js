@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2026 Jhonatan Quirino
+ * Todos os direitos reservados.
+ */
+
 /**
  * Serviço de Boas-Vindas
  * Responsável por gerenciar o envio de emails de boas-vindas para novos colaboradores
