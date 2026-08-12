@@ -90,7 +90,7 @@ Cada módulo segue esta estrutura:
 ```
 ModuleNameGW/
 ├── appsscript.json          # Configuração do projeto
-├── .clasp.json              # Configuração do CLASP (dev)
+├── .clasp.example.json      # Modelo público de configuração do CLASP
 ├── main.js                  # Entradas e lógica principal
 ├── Constantes.js            # Configuração específica do módulo
 ├── Diretorio.js             # Helpers da Admin API

@@ -34,7 +34,7 @@ Todo módulo possui um `start.gs`. Depois de enviar os arquivos ao Apps Script, 
 
 ## Configurar o `clasp`
 
-Cada `.clasp.json` contém o placeholder `<YOUR_APPS_SCRIPT_PROJECT_ID>`. Antes de executar `clasp push`, substitua-o localmente pelo ID do projeto Apps Script criado para o módulo. Não publique nem faça commit desse identificador.
+Cada módulo inclui `.clasp.example.json`. Copie-o para `.clasp.json` e substitua o placeholder `<YOUR_APPS_SCRIPT_PROJECT_ID>` localmente pelo ID do projeto Apps Script criado para o módulo. O `.clasp.json` é ignorado pelo Git; nunca publique ou faça commit desse identificador.
 
 Instale o `clasp`:
 
@@ -111,7 +111,7 @@ Não inclua valores reais de propriedades em documentação, arquivos de exemplo
 ## Implantar um módulo
 
 1. Crie um projeto Apps Script vazio para o módulo.
-2. Preencha o `scriptId` local no `.clasp.json` correspondente.
+2. Copie `.clasp.example.json` para `.clasp.json` e preencha o `scriptId` somente no arquivo local.
 3. Revise os escopos no `appsscript.json`.
 4. Envie o código:
 

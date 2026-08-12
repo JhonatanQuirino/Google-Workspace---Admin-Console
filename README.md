@@ -42,6 +42,8 @@ npm install -g @google/clasp
 
 ### Configuração
 
+Antes de usar um módulo, copie seu `.clasp.example.json` para `.clasp.json` e informe localmente o ID do projeto Apps Script. Arquivos `.clasp.json` são ignorados pelo Git e não devem ser publicados.
+
 Cada módulo utiliza propriedades de script no Editor do Apps Script.
 
 Propriedades comuns:
@@ -91,6 +93,7 @@ FIREBASE_PROJECT_ID
 - Credenciais armazenadas nas propriedades do Apps Script
 - Dados sensíveis mascarados nos logs
 - Acesso restrito a administradores do Google Workspace
+- Arquivos locais de credenciais e vínculos do `clasp` ignorados pelo Git
 - Verifique [SECURITY.md](SECURITY.md) para detalhes
 
 ## 🧪 Testes

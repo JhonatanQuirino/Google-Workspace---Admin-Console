@@ -28,10 +28,11 @@ clasp login
 git clone <repository-url>
 cd <repository-folder>
 cd criacaoUsuarioGW
-clasp pull
+cp .clasp.example.json .clasp.json
+# Preencha o scriptId local antes de usar clasp.
 ```
 
-> Nota: este repositório não possui `package.json` no nível raiz. Cada módulo é tratado como um projeto Apps Script independente.
+> Nota: este repositório não possui `package.json` no nível raiz. Cada módulo é tratado como um projeto Apps Script independente. O `.clasp.json` é local e ignorado pelo Git.
 
 ### Editar arquivos
 
@@ -112,7 +113,7 @@ Se `AdminDirectory`, `Gmail` ou `AdminLicenseManager` não estiverem definidos, 
 ## Adicionar um novo módulo
 
 1. Crie uma pasta nova para o módulo.
-2. Defina `appsscript.json` e `.clasp.json`.
+2. Defina `appsscript.json` e inclua um `.clasp.example.json`; mantenha o `.clasp.json` somente local.
 3. Implemente a lógica principal em `main.js`.
 4. Adicione `Constantes.js` e utilitários conforme necessário.
 5. Documente o módulo em `docs/MODULES.md`.

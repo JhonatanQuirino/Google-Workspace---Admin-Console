@@ -6,7 +6,7 @@ Copyright (c) 2026 Jhonatan Quirino
 
 ⚠️ **NÃO reporte vulnerabilidades de segurança por issues públicas no GitHub.**
 
-Envie relatórios para: **[jhqsouza@gmail.com](mailto:jhqsouza@gmail.com)**
+Use o canal **Security advisories** privado do repositório no GitHub. Caso ele ainda não esteja habilitado, solicite ao mantenedor que o ative antes da publicação.
 
 Inclua as seguintes informações:
 - Tipo de vulnerabilidade
@@ -32,6 +32,7 @@ Este projeto manipula credenciais sensíveis (chaves do Firebase, tokens OAuth e
 - ✅ Use variáveis de ambiente em testes locais
 - ✅ Faça rotação periódica de credenciais
 - ✅ Masque dados sensíveis em logs (CPF, e-mails, tokens)
+- ✅ Revogue e rotacione imediatamente qualquer segredo que já tenha sido exposto
 
 ### Escopos OAuth
 
@@ -78,6 +79,16 @@ Verifique se o projeto habilita somente os escopos necessários.
 - Garanta que apenas a conta de serviço correta possa ler os dados
 - Não expor a chave privada do Firebase em arquivos públicos
 
+### Publicação do repositório
+
+Antes de alterar a visibilidade no GitHub:
+
+- confirme que não há segredos ou identificadores de projetos nos arquivos e no histórico Git;
+- mantenha `.clasp.json`, arquivos `.env` e chaves de conta de serviço fora do versionamento;
+- revise os logs e exemplos para garantir que usam somente dados fictícios;
+- use regras restritivas no Firebase e o menor conjunto possível de escopos OAuth;
+- para Web Apps com acesso anônimo, use segredo de alta entropia, limite a validade dos tokens e não inclua credenciais em URLs ou logs.
+
 ### Procedimentos de resposta
 
 - Informe imediatamente a equipe de segurança em caso de incidente
@@ -86,4 +97,4 @@ Verifique se o projeto habilita somente os escopos necessários.
 
 ## Contato
 
-Para dúvidas de segurança, utilize: **[jhqsouza@gmail.com](mailto:jhqsouza@gmail.com)**
+Use as discussões ou issues do repositório apenas para dúvidas que não envolvam vulnerabilidades ou dados sensíveis.

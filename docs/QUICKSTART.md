@@ -26,7 +26,7 @@ cd <repository-folder>
 npm install -g @google/clasp
 ```
 
-3. Para cada módulo que pretende usar, crie um projeto Apps Script vazio e atualize localmente o `scriptId` do respectivo `.clasp.json`. Não faça commit desse identificador.
+3. Para cada módulo que pretende usar, copie `.clasp.example.json` para `.clasp.json`, crie um projeto Apps Script vazio e atualize localmente o `scriptId`. Não faça commit desse identificador.
 
 4. Configure cada módulo no Editor do Apps Script:
 

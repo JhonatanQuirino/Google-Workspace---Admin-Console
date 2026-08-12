@@ -11,7 +11,7 @@ O projeto busca um ambiente acolhedor e inclusivo. Todos os colaboradores devem:
 - Ser respeitosos e profissionais
 - Valorizar perspectivas diversas
 - Oferecer feedback construtivo
-- Reportar violações para [jhqsouza@gmail.com](mailto:jhqsouza@gmail.com)
+- Reportar violações pelos canais privados definidos pelos mantenedores
 
 ## Como começar
 
@@ -39,7 +39,7 @@ npm install -g @google/clasp
 # Autentique-se no Google
 clasp login
 
-# Configure seu .clasp.json para desenvolvimento
+# Copie .clasp.example.json para .clasp.json e configure o scriptId local
 ```
 
 Veja [SETUP.md](docs/SETUP.md) para instruções detalhadas de configuração.
